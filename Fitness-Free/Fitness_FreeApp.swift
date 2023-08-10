@@ -1,17 +1,17 @@
 //
-//  Fitness_FreeApp.swift
-//  Fitness-Free
+//  Personal_Fitness_FreeApp.swift
+//  Personal Fitness Free
 //
-//  Created by Conner Stoebe on 8/10/23.
-//
+//  Created by Conner Stoebe on 5/29/23.
+// this is the main structure fyi
 
 import SwiftUI
 
 @main
-struct Fitness_FreeApp: App {
+struct Personal_Fitness_FreeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(UserManager.shared)
         }
     }
 }
