@@ -11,6 +11,17 @@
 		B8F05BB22A858C8800521889 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F05BB12A858C8800521889 /* ContentView.swift */; };
 		B8F05BB42A858C8A00521889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8F05BB32A858C8A00521889 /* Assets.xcassets */; };
 		B8F05BB72A858C8A00521889 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8F05BB62A858C8A00521889 /* Preview Assets.xcassets */; };
+		B8F05BC62A858FFC00521889 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F05BC12A858FFC00521889 /* SettingsView.swift */; };
+		B8F05BC72A858FFC00521889 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F05BC22A858FFC00521889 /* ProfileView.swift */; };
+		B8F05BC82A858FFC00521889 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F05BC32A858FFC00521889 /* HomeView.swift */; };
+		B8F05BC92A858FFC00521889 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F05BC42A858FFC00521889 /* WorkoutView.swift */; };
+		B8F05BCA2A858FFC00521889 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F05BC52A858FFC00521889 /* CalendarView.swift */; };
+		B8F05BD02A85901900521889 /* DistanceRanWalkedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F05BCC2A85901900521889 /* DistanceRanWalkedView.swift */; };
+		B8F05BD12A85901900521889 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F05BCD2A85901900521889 /* HealthKitManager.swift */; };
+		B8F05BD22A85901900521889 /* StepsForWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F05BCE2A85901900521889 /* StepsForWeek.swift */; };
+		B8F05BD32A85901900521889 /* StructsForHealthkitObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F05BCF2A85901900521889 /* StructsForHealthkitObj.swift */; };
+		B8F05BD72A85902600521889 /* userManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F05BD52A85902600521889 /* userManager.swift */; };
+		B8F05BD82A85902600521889 /* UserStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F05BD62A85902600521889 /* UserStructure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		B8F05BB12A858C8800521889 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B8F05BB32A858C8A00521889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8F05BB62A858C8A00521889 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B8F05BC12A858FFC00521889 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B8F05BC22A858FFC00521889 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B8F05BC32A858FFC00521889 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B8F05BC42A858FFC00521889 /* WorkoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		B8F05BC52A858FFC00521889 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		B8F05BCC2A85901900521889 /* DistanceRanWalkedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistanceRanWalkedView.swift; sourceTree = "<group>"; };
+		B8F05BCD2A85901900521889 /* HealthKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		B8F05BCE2A85901900521889 /* StepsForWeek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepsForWeek.swift; sourceTree = "<group>"; };
+		B8F05BCF2A85901900521889 /* StructsForHealthkitObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructsForHealthkitObj.swift; sourceTree = "<group>"; };
+		B8F05BD52A85902600521889 /* userManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userManager.swift; sourceTree = "<group>"; };
+		B8F05BD62A85902600521889 /* UserStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStructure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +73,13 @@
 		B8F05BAE2A858C8800521889 /* Fitness-Free */ = {
 			isa = PBXGroup;
 			children = (
+				B8F05BBD2A858FD200521889 /* Resources */,
 				B8F05BAF2A858C8800521889 /* Fitness_FreeApp.swift */,
 				B8F05BB12A858C8800521889 /* ContentView.swift */,
 				B8F05BB32A858C8A00521889 /* Assets.xcassets */,
+				B8F05BCB2A85901900521889 /* HealthKit */,
+				B8F05BD42A85902600521889 /* User */,
+				B8F05BC02A858FFC00521889 /* Views */,
 				B8F05BB52A858C8A00521889 /* Preview Content */,
 			);
 			path = "Fitness-Free";
@@ -65,6 +91,45 @@
 				B8F05BB62A858C8A00521889 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B8F05BBD2A858FD200521889 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B8F05BC02A858FFC00521889 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B8F05BC22A858FFC00521889 /* ProfileView.swift */,
+				B8F05BC32A858FFC00521889 /* HomeView.swift */,
+				B8F05BC42A858FFC00521889 /* WorkoutView.swift */,
+				B8F05BC52A858FFC00521889 /* CalendarView.swift */,
+				B8F05BC12A858FFC00521889 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B8F05BCB2A85901900521889 /* HealthKit */ = {
+			isa = PBXGroup;
+			children = (
+				B8F05BCC2A85901900521889 /* DistanceRanWalkedView.swift */,
+				B8F05BCD2A85901900521889 /* HealthKitManager.swift */,
+				B8F05BCE2A85901900521889 /* StepsForWeek.swift */,
+				B8F05BCF2A85901900521889 /* StructsForHealthkitObj.swift */,
+			);
+			path = HealthKit;
+			sourceTree = "<group>";
+		};
+		B8F05BD42A85902600521889 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				B8F05BD52A85902600521889 /* userManager.swift */,
+				B8F05BD62A85902600521889 /* UserStructure.swift */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +202,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F05BC72A858FFC00521889 /* ProfileView.swift in Sources */,
+				B8F05BD82A85902600521889 /* UserStructure.swift in Sources */,
+				B8F05BCA2A858FFC00521889 /* CalendarView.swift in Sources */,
+				B8F05BC62A858FFC00521889 /* SettingsView.swift in Sources */,
+				B8F05BD32A85901900521889 /* StructsForHealthkitObj.swift in Sources */,
 				B8F05BB22A858C8800521889 /* ContentView.swift in Sources */,
+				B8F05BC82A858FFC00521889 /* HomeView.swift in Sources */,
+				B8F05BD02A85901900521889 /* DistanceRanWalkedView.swift in Sources */,
+				B8F05BC92A858FFC00521889 /* WorkoutView.swift in Sources */,
 				B8F05BB02A858C8800521889 /* Fitness_FreeApp.swift in Sources */,
+				B8F05BD12A85901900521889 /* HealthKitManager.swift in Sources */,
+				B8F05BD72A85902600521889 /* userManager.swift in Sources */,
+				B8F05BD22A85901900521889 /* StepsForWeek.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +346,7 @@
 				DEVELOPMENT_TEAM = 2R2792CK87;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +376,7 @@
 				DEVELOPMENT_TEAM = 2R2792CK87;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
